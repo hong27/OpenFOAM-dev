@@ -1,0 +1,39 @@
+/*---------------------------------------------------------------------------*\
+| =========                 |                                                 |
+| \\      /  F ield         | OpenFOAM: The Open Source CFD Toolbox           |
+|  \\    /   O peration     | Version:  dev                                   |
+|   \\  /    A nd           | Web:      www.OpenFOAM.org                      |
+|    \\/     M anipulation  |                                                 |
+\*---------------------------------------------------------------------------*/
+Build  : dev-940e28f63681
+Exec   : setFields
+Date   : Jul 22 2019
+Time   : 14:51:39
+Host   : "compute-3-1.local"
+PID    : 5084
+I/O    : uncollated
+Case   : /home/z5146499/OpenFOAM/OpenFOAM-dev/tutorials/compressible/sonicFoam/laminar/shockTube
+nProcs : 1
+sigFpe : Enabling floating point exception trapping (FOAM_SIGFPE).
+fileModificationChecking : Monitoring run-time modified files using timeStampMaster (fileModificationSkew 10)
+allowSystemOperations : Allowing user-supplied system call operations
+
+// * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
+Create time
+
+Create mesh for time = 0
+
+Reading setFieldsDict
+
+Setting field default values
+    Setting internal values of volVectorField U
+    Setting internal values of volScalarField T
+    Setting internal values of volScalarField p
+
+Setting field region values
+    Adding cells with center within boxes 1((0 -1 -1) (5 1 1))
+    Setting internal values of volScalarField T
+    Setting internal values of volScalarField p
+
+End
+

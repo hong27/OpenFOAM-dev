@@ -12,3 +12,5 @@ include $(GENERAL_RULES)/moc
 include $(GENERAL_RULES)/X
 
 #------------------------------------------------------------------------------
+#fireFoam version stamping
+include $(GENERAL_RULES)/version2

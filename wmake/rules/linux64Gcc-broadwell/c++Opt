@@ -1,0 +1,4 @@
+c++DBUG     =
+c++OPT      = -O3 -march=broadwell -mtune=broadwell
+
+ROUNDING_MATH = -frounding-math

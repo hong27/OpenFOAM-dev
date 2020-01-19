@@ -1,0 +1,4 @@
+c++DBUG     =
+c++OPT      = -O3 -march=native -mtune=native
+
+ROUNDING_MATH = -frounding-math

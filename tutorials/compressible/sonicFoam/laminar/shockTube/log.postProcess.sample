@@ -1,0 +1,90 @@
+/*---------------------------------------------------------------------------*\
+| =========                 |                                                 |
+| \\      /  F ield         | OpenFOAM: The Open Source CFD Toolbox           |
+|  \\    /   O peration     | Version:  dev                                   |
+|   \\  /    A nd           | Web:      www.OpenFOAM.org                      |
+|    \\/     M anipulation  |                                                 |
+\*---------------------------------------------------------------------------*/
+Build  : dev-940e28f63681
+Exec   : postProcess -func sample
+Date   : Jul 22 2019
+Time   : 14:51:44
+Host   : "compute-3-1.local"
+PID    : 5086
+I/O    : uncollated
+Case   : /home/z5146499/OpenFOAM/OpenFOAM-dev/tutorials/compressible/sonicFoam/laminar/shockTube
+nProcs : 1
+sigFpe : Enabling floating point exception trapping (FOAM_SIGFPE).
+fileModificationChecking : Monitoring run-time modified files using timeStampMaster (fileModificationSkew 10)
+allowSystemOperations : Allowing user-supplied system call operations
+
+// * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
+Create time
+
+Create mesh for time = 0
+
+Reading set description:
+    data
+
+Time = 0
+
+Reading fields:
+    volScalarFields: T p
+
+Executing functionObjects
+--> FOAM Warning : 
+    From function Foam::label Foam::sampledSets::classifyFields()
+    in file sampledSet/sampledSets/sampledSetsGrouping.C at line 140
+    Cannot find registered field matching mag(U)
+
+Time = 0.001
+
+Reading fields:
+    volScalarFields: mag(U) p T
+
+Executing functionObjects
+
+Time = 0.002
+
+Reading fields:
+    volScalarFields: mag(U) p T
+
+Executing functionObjects
+
+Time = 0.003
+
+Reading fields:
+    volScalarFields: mag(U) p T
+
+Executing functionObjects
+
+Time = 0.004
+
+Reading fields:
+    volScalarFields: mag(U) p T
+
+Executing functionObjects
+
+Time = 0.005
+
+Reading fields:
+    volScalarFields: mag(U) p T
+
+Executing functionObjects
+
+Time = 0.006
+
+Reading fields:
+    volScalarFields: mag(U) p T
+
+Executing functionObjects
+
+Time = 0.007
+
+Reading fields:
+    volScalarFields: mag(U) p T
+
+Executing functionObjects
+
+End
+

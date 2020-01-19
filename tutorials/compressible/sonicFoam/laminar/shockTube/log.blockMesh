@@ -1,0 +1,71 @@
+/*---------------------------------------------------------------------------*\
+| =========                 |                                                 |
+| \\      /  F ield         | OpenFOAM: The Open Source CFD Toolbox           |
+|  \\    /   O peration     | Version:  dev                                   |
+|   \\  /    A nd           | Web:      www.OpenFOAM.org                      |
+|    \\/     M anipulation  |                                                 |
+\*---------------------------------------------------------------------------*/
+Build  : dev-940e28f63681
+Exec   : blockMesh
+Date   : Jul 22 2019
+Time   : 14:51:39
+Host   : "compute-3-1.local"
+PID    : 5083
+I/O    : uncollated
+Case   : /home/z5146499/OpenFOAM/OpenFOAM-dev/tutorials/compressible/sonicFoam/laminar/shockTube
+nProcs : 1
+sigFpe : Enabling floating point exception trapping (FOAM_SIGFPE).
+fileModificationChecking : Monitoring run-time modified files using timeStampMaster (fileModificationSkew 10)
+allowSystemOperations : Allowing user-supplied system call operations
+
+// * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
+Create time
+
+Creating block mesh from
+    "/home/z5146499/OpenFOAM/OpenFOAM-dev/tutorials/compressible/sonicFoam/laminar/shockTube/system/blockMeshDict"
+Creating block edges
+No non-planar block faces defined
+Creating topology blocks
+Creating topology patches
+
+Creating block mesh topology
+
+Check topology
+
+	Basic statistics
+		Number of internal faces : 0
+		Number of boundary faces : 6
+		Number of defined boundary faces : 6
+		Number of undefined boundary faces : 0
+	Checking patch -> block consistency
+
+Creating block offsets
+Creating merge list .
+
+Creating polyMesh from blockMesh
+Creating patches
+Creating cells
+Creating points with scale 1
+    Block 0 cell size :
+        i : 0.01 .. 0.01
+        j : 2 .. 2
+        k : 2 .. 2
+
+
+Writing polyMesh
+----------------
+Mesh Information
+----------------
+  boundingBox: (-5 -1 -1) (5 1 1)
+  nPoints: 4004
+  nCells: 1000
+  nFaces: 5001
+  nInternalFaces: 999
+----------------
+Patches
+----------------
+  patch 0 (start: 999 size: 2) name: sides
+  patch 1 (start: 1001 size: 4000) name: empty
+
+End
+

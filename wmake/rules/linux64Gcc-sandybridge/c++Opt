@@ -1,0 +1,4 @@
+c++DBUG     =
+c++OPT      = -O3 -march=sandybridge -mtune=sandybridge
+
+ROUNDING_MATH = -frounding-math

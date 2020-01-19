@@ -1,0 +1,4 @@
+c++DBUG     =
+c++OPT      = -O3 -march=bdver1 -mtune=bdver1
+
+ROUNDING_MATH = -frounding-math
